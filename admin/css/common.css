@@ -1,0 +1,71 @@
+:root {
+    --184C89: #184C89;
+}
+
+
+*{
+    font-family: 'Poppins', sans-serif,
+}
+.h-font {
+    font-family: 'Merienda' 'Times New Roman', Times, serif;
+}
+  /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+  /* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+.custom-bg {
+    background-color: #184C89
+}
+.custom-bg:hover {
+    background-color: #0B335F
+}
+.description-font {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+.book-now-btn {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #184C89
+}
+.book-now-btn:hover {
+    background-color: #0B335F
+}
+.section{
+    background-color: #184C89;
+}
+.custom-alert{
+    position: fixed;
+    top: 70px;
+    right: 25px;
+}
+#dashboard-menu{
+    position: fixed;
+    height: 100%;
+    z-index: 11;
+}
+
+@media screen and (max-width: 991px){
+    #dashboard-menu{
+        height: auto;
+        width: 100%;
+    }
+    #main-content{
+        margin-top: 60%;
+    }
+
+}
+
+
+
+
+
