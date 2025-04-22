@@ -1,5 +1,5 @@
 <?php
-require('admin/Includes/db_configuration.php');
+require('admin/Includes/db_Configuration.php');
 
 if (isset($_POST['name']) && isset($_POST['review']) && isset($_POST['rating'])) {
   $name = $con->real_escape_string($_POST['name']);
