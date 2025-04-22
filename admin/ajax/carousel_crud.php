@@ -1,6 +1,6 @@
 <?php
 
-require('../Includes/db_configuration.php');
+require('../Includes/db_Configuration.php');
 require('../Includes/essentials.php');
 adminLogin();
 
