@@ -1,7 +1,7 @@
 
 <?php
 require('Includes/essentials.php');
-require('Includes/db_configuration.php'); // Include DB config
+require('Includes/db_Configuration.php'); // Include DB config
 adminLogin();
 
 // Fetch Dashboard Data
